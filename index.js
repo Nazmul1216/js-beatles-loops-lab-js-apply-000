@@ -1,13 +1,13 @@
 // add solution here
-function theBeatlesPlay(musicians, instruments){
-  var musicianPlaysInstruments=[]
-  for(let i=0; i<musicians.length; i++){
-  musicianPlaysInstruments.push(`${musicians[i]} plays ${instruments[i]}`)
+function theBeatlesPlay(musicians,instruments){
+  var musiciansPlaysInstruments=[]
+  for(var i=0;i<musicians.length;i++){
+   musiciansPlaysInstruments.push(`${musicians[i]} plays ${instruments[i]}`)
   }
-  return musicianPlaysInstruments
+   return musiciansPlaysInstruments
 }
 function johnLennonFacts(array){
-  let i=0
+  var i=0
   while(i<array.length){
     array[i]=`${array[i]}!!!`
     i+=1
